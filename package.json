@@ -5,7 +5,7 @@
   "author": "aflinsjr@icloud.com <aflinsjr@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "dev:prod": "tsnd --inspect --respawn --ignore-watch node_modules --transpile-only src/services.ts"
+    "dev:prod": "tsnd --inspect --respawn --ignore-watch node_modules --transpile-only src/app.ts"
   },
   "dependencies": {
     "amqplib": "^0.9.0",
